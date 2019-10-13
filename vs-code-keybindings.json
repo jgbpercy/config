@@ -5,6 +5,10 @@
   },
   {
     "key": "ctrl+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+p",
     "command": "workbench.action.showCommands"
   },
   {
@@ -14,10 +18,6 @@
   {
     "key": "ctrl+t",
     "command": "workbench.action.quickOpen"
-  },
-  {
-    "key": "ctrl+p",
-    "command": "-workbench.action.quickOpen"
   },
   {
     "key": "shift+enter",
@@ -56,11 +56,6 @@
   {
     "key": "ctrl+alt+backspace",
     "command": "deleteWordPartLeft",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
-    "key": "ctrl+shift+alt+backspace",
-    "command": "deleteWordPartRight",
     "when": "textInputFocus && !editorReadonly"
   },
   {
