@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+* {
+  &:focus {
+    outline: none;
+  }
+
+  box-sizing: border-box;
+  scrollbar-width: thin;
+
+  &::before,
+  &::after {
+    box-sizing: border-box;
+    scrollbar-width: thin;
+  }
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input,
+textarea,
+button {
+  border: none;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+}
+
+button {
+  background: none;
+}
+
+// Scrollbars
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $gray-500;
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}

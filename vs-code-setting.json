@@ -1,0 +1,26 @@
+{
+  "workbench.colorTheme": "Solarized Dark",
+  "editor.detectIndentation": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.snippetSuggestions": "none",
+  "prettier.disableLanguages": ["html", "yaml"],
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "es5",
+  "window.zoomLevel": 0,
+  "explorer.autoReveal": false,
+  "breadcrumbs.enabled": true,
+  "[csharp]": {
+    "editor.tabSize": 4
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vsicons.projectDetection.autoReload": true,
+  "workbench.iconTheme": "vscode-icons",
+  "omnisharp.enableRoslynAnalyzers": true,
+  "editor.formatOnSave": true
+}
