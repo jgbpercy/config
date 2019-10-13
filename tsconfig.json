@@ -21,12 +21,6 @@
       "dom"
     ],
     "paths": {
-      "@capp/angular": [
-        "projects/capp-angular/src/public-api"
-      ],
-      "@capp/angular-auth": [
-        "projects/capp-angular-auth/src/public-api"
-      ],
       "api": [
         "src/app/api-models"
       ],
