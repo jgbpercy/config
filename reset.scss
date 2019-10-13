@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -15,6 +16,34 @@ body {
     box-sizing: border-box;
     scrollbar-width: thin;
   }
+}
+
+ul.reset,
+ol.reset {
+  padding: 0;
+  list-style-type: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul.reset,
+ol.reset,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 a {
@@ -35,6 +64,16 @@ button {
   background: none;
 }
 
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 // Scrollbars
 ::-webkit-scrollbar {
   background-color: transparent;
@@ -43,7 +82,7 @@ button {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: $gray-500;
+  background-color: #bfbfbf;
   width: 5px;
   height: 5px;
 }
