@@ -23,6 +23,7 @@
   "workbench.iconTheme": "vscode-icons",
   "omnisharp.enableRoslynAnalyzers": true,
   "editor.formatOnSave": true,
+  "html.mirrorCursorOnMatchingTag": false,
   "editor.tokenColorCustomizations": {
     "strings": "#2aa17d"
   },
