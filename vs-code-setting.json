@@ -22,5 +22,25 @@
   "vsicons.projectDetection.autoReload": true,
   "workbench.iconTheme": "vscode-icons",
   "omnisharp.enableRoslynAnalyzers": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.tokenColorCustomizations": {
+    "strings": "#2aa17d"
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "function": "#17b1a4",
+      "member": "#1ba9c2",
+      "class": "#cb2216",
+      "type": "#CB4B16",
+      "interface": "#CB4B16",
+      "typeParameter": "#cb7616",
+      "property.declaration": {
+        "bold": true
+      },
+      "string": "#42a12a",
+      "*.deprecated": "#FF77BB",
+      "parameter": "#bbbbbb"
+    }
+  }
 }
