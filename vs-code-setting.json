@@ -24,6 +24,9 @@
   "omnisharp.enableRoslynAnalyzers": true,
   "editor.formatOnSave": true,
   "html.mirrorCursorOnMatchingTag": false,
+  "explorer.compactFolders": false,
+  "editor.hover.delay": 100,
+  "editor.mouseWheelScrollSensitivity": 3,
   "editor.tokenColorCustomizations": {
     "strings": "#2aa17d"
   },
