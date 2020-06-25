@@ -27,6 +27,7 @@
   "explorer.compactFolders": false,
   "editor.hover.delay": 100,
   "editor.mouseWheelScrollSensitivity": 3,
+  "workbench.editor.enablePreview": false,
   "editor.tokenColorCustomizations": {
     "strings": "#2aa17d"
   },
