@@ -57,7 +57,6 @@
     "prefer-const": true,
     "radix": true,
     "restrict-plus-operands": true,
-    "semicolon": [true, "always"],
     "triple-equals": [true],
     "typedef": [true, "call-signature"],
     "typedef-whitespace": [
