@@ -10,9 +10,9 @@
   "prettier.disableLanguages": ["html", "yaml"],
   "prettier.printWidth": 100,
   "prettier.trailingComma": "es5",
-  "window.zoomLevel": 0,
   "explorer.autoReveal": false,
   "breadcrumbs.enabled": true,
+  "editor.codeActionsOnSave": { "source.organizeImports": true },
   "[csharp]": {
     "editor.tabSize": 4
   },
@@ -35,7 +35,7 @@
     "enabled": true,
     "rules": {
       "function": "#17b1a4",
-      "member": "#1ba9c2",
+      "method": "#1ba9c2",
       "class": "#cb2216",
       "type": "#CB4B16",
       "interface": "#CB4B16",
@@ -47,5 +47,25 @@
       "*.deprecated": "#FF77BB",
       "parameter": "#bbbbbb"
     }
+  },
+  "vsicons.presets.tsOfficial": true,
+  "workbench.editor.wrapTabs": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
