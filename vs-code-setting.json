@@ -21,15 +21,130 @@
   },
   "vsicons.projectDetection.autoReload": true,
   "workbench.iconTheme": "vscode-icons",
-  "omnisharp.enableRoslynAnalyzers": true,
   "editor.formatOnSave": true,
+  "editor.formatOnType": true,
   "html.mirrorCursorOnMatchingTag": false,
   "explorer.compactFolders": false,
-  "editor.hover.delay": 100,
+  "editor.hover.delay": 750,
   "editor.mouseWheelScrollSensitivity": 3,
   "workbench.editor.enablePreview": false,
   "editor.tokenColorCustomizations": {
-    "strings": "#2aa17d"
+    "textMateRules": [
+      {
+        "scope": "html-template.tag.html",
+        "settings": {
+          "foreground": "#4791c4"
+        }
+      },
+      {
+        "scope": "html-template.tag.custom",
+        "settings": {
+          "foreground": "#17b1a4"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.generic",
+        "settings": {
+          "foreground": "#99bb66"
+        }
+      },
+      {
+        "scope": "html-template.ng.interpolation.begin",
+        "settings": {
+          "foreground": "#c19977"
+        }
+      },
+      {
+        "scope": "html-template.ng.interpolation.end",
+        "settings": {
+          "foreground": "#c19977"
+        }
+      },
+      {
+        "scope": "entity.name.tag.html.ng",
+        "settings": {
+          "foreground": "#079164"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.animationtrigger.prefix",
+        "settings": {
+          "foreground": "#ff5588"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.animationtrigger.variable",
+        "settings": {
+          "foreground": "#ff5588"
+        }
+      },
+      {
+        "scope": "punctuation.definition.ng-binding-name.begin.html",
+        "settings": {
+          "foreground": "#808080"
+        }
+      },
+      {
+        "scope": "punctuation.definition.ng-binding-name.end.html",
+        "settings": {
+          "foreground": "#808080"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.event-handler",
+        "settings": {
+          "foreground": "#f18080"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.input-binding.animationTrigger.prefix",
+        "settings": {
+          "foreground": "#ff5588"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.input-binding.first-level",
+        "settings": {
+          "foreground": "#c19977"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.input-binding.second-level",
+        "settings": {
+          "foreground": "#c19977"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.input-binding.third-level",
+        "settings": {
+          "foreground": "#c19977"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.prefix.sugar",
+        "settings": {
+          "foreground": "#cc4477"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.suffix.sugar",
+        "settings": {
+          "foreground": "#cc4477"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.template.prefix",
+        "settings": {
+          "foreground": "#dd3355"
+        }
+      },
+      {
+        "scope": "html-template.ng.attributes.template.variable",
+        "settings": {
+          "foreground": "#dd3355"
+        }
+      }
+    ]
   },
   "editor.semanticTokenColorCustomizations": {
     "enabled": true,
@@ -67,5 +182,80 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "search.exclude": {
+    "**/.angular/cache": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock",
+    "*.component.ts": "${capture}.component.html,${capture}.component.scss"
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced"
+  },
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCount": 10,
+  "vscode-angular-html.htmlCustomTags": "#17b1a4",
+  "vscode-angular-html.angularExpression": "#c19977",
+  "vscode-angular-html.htmlDoctypeAttributes": "",
+  "vscode-angular-html.htmlDoctypeExclamation": "",
+  "vscode-angular-html.htmlDoctypeElement": "",
+  "vscode-angular-html.dtdDoctypeExclamation": "",
+  "vscode-angular-html.dtdDoctypeElement": "",
+  "vscode-angular-html.dtdDoctypeQuantifier": "",
+  "vscode-angular-html.dtdDoctypeQualifier": "",
+  "vscode-angular-html.htmlEntitiesAmpersand": "",
+  "vscode-angular-html.htmlEntitiesSemicolon": "",
+  "vscode-angular-html.htmlGenericAttributesFollowedByParameter": "#99bb66",
+  "vscode-angular-html.htmlEventsAttributes": "",
+  "vscode-angular-html.htmlAttributeValueSeparator": "",
+  "vscode-angular-html.htmlTags": "#4791c4",
+  "vscode-angular-html.angularAndAngularMaterialElementTags": "#079164",
+  "vscode-angular-html.htmlScriptAttributesLanguageIdentifier": "",
+  "vscode-angular-html.htmlStyleAttributesLanguageIdentifier": "",
+  "vscode-angular-html.primeNgElementTags": "",
+  "vscode-angular-html.svgTags": "",
+  "vscode-angular-html.svgDAttributePathCommands": "",
+  "vscode-angular-html.angularAnimationTriggerPrefix": "#ff5588",
+  "vscode-angular-html.angularAnimationTriggerVariableName": "#ff5588",
+  "vscode-angular-html.angularEventHandlerName": "#f18080",
+  "vscode-angular-html.angularBindingAttributeDelimiter": "#808080",
+  "vscode-angular-html.angularOneWayBindingAnimationTriggerDecorator": "#ff5588",
+  "vscode-angular-html.angularOneWayBindingFirstLevelDepth": "#c19977",
+  "vscode-angular-html.angularOneWayBindingSecondLevelDepth": "#c19977",
+  "vscode-angular-html.angularOneWayBindingThirdLevelDepth": "#c19977",
+  "vscode-angular-html.angularPrefixedAttributesLetPrefix": "",
+  "vscode-angular-html.angularPrefixedAttributesRefPrefix": "",
+  "vscode-angular-html.angularPrefixedAttributesVariableName": "",
+  "vscode-angular-html.angularPrefixedAttributesRxjsSuffix": "",
+  "vscode-angular-html.angularSyntaxSugarAttributesPrefix": "#cc4477",
+  "vscode-angular-html.angularSyntaxSugarAttributesName": "#cc4477",
+  "vscode-angular-html.angularTemplateVariablePrefix": "#dd3355",
+  "vscode-angular-html.angularTemplateVariableName": "#dd3355",
+  "vscode-angular-html.angularExpressionOperatorsAndNavigatorsColor": "",
+  "vscode-angular-html.xmlStylesheetAttributesLanguageIdentifier": "",
+  "vscode-angular-html.xmlTagNamespaceDivider": "",
+  "vscode-angular-html.xmlTagNamespaceSuffix": "",
+  "vscode-angular-html.xmlAttributeNamespaceDivider": "",
+  "vscode-angular-html.xmlAttributeNamespaceSuffix": "",
+  "vscode-angular-html.colorCustomizations": true
 }
