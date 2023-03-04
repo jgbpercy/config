@@ -35,13 +35,21 @@
   },
   {
     "key": "ctrl+alt+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+alt+right",
     "command": "cursorWordPartRight",
     "when": "textInputFocus"
   },
   {
-    "command": "cursorWordPartRightSelect",
     "key": "ctrl+shift+alt+right",
+    "command": "cursorWordPartRightSelect",
     "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "-workbench.action.moveEditorToPreviousGroup"
   },
   {
     "key": "ctrl+alt+left",
@@ -100,7 +108,15 @@
     "command": "workbench.action.focusFirstEditorGroup"
   },
   {
+    "key": "alt+numpad1",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
     "key": "alt+2",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "alt+numpad2",
     "command": "workbench.action.focusSecondEditorGroup"
   },
   {
@@ -108,11 +124,23 @@
     "command": "workbench.action.focusThirdEditorGroup"
   },
   {
+    "key": "alt+numpad3",
+    "command": "workbench.action.focusThirdEditorGroup"
+  },
+  {
     "key": "alt+4",
     "command": "workbench.action.focusFourthEditorGroup"
   },
   {
+    "key": "alt+numpad4",
+    "command": "workbench.action.focusFourthEditorGroup"
+  },
+  {
     "key": "alt+5",
+    "command": "workbench.action.focusFifthEditorGroup"
+  },
+  {
+    "key": "alt+numpad5",
     "command": "workbench.action.focusFifthEditorGroup"
   },
   {
@@ -124,7 +152,19 @@
     "command": "workbench.action.openEditorAtIndex1"
   },
   {
+    "key": "ctrl+1",
+    "command": "workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "ctrl+numpad1",
+    "command": "workbench.action.openEditorAtIndex1"
+  },
+  {
     "key": "ctrl+2",
+    "command": "workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "ctrl+numpad2",
     "command": "workbench.action.openEditorAtIndex2"
   },
   {
@@ -132,7 +172,15 @@
     "command": "workbench.action.openEditorAtIndex3"
   },
   {
+    "key": "ctrl+numpad3",
+    "command": "workbench.action.openEditorAtIndex3"
+  },
+  {
     "key": "ctrl+4",
+    "command": "workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "ctrl+numpad4",
     "command": "workbench.action.openEditorAtIndex4"
   },
   {
@@ -140,7 +188,15 @@
     "command": "workbench.action.openEditorAtIndex5"
   },
   {
+    "key": "ctrl+numpad5",
+    "command": "workbench.action.openEditorAtIndex5"
+  },
+  {
     "key": "ctrl+6",
+    "command": "workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "ctrl+numpad6",
     "command": "workbench.action.openEditorAtIndex6"
   },
   {
@@ -148,11 +204,23 @@
     "command": "workbench.action.openEditorAtIndex7"
   },
   {
+    "key": "ctrl+numpad7",
+    "command": "workbench.action.openEditorAtIndex7"
+  },
+  {
     "key": "ctrl+8",
     "command": "workbench.action.openEditorAtIndex8"
   },
   {
+    "key": "ctrl+numpad8",
+    "command": "workbench.action.openEditorAtIndex8"
+  },
+  {
     "key": "ctrl+9",
+    "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+numpad9",
     "command": "workbench.action.openEditorAtIndex9"
   },
   {
@@ -162,5 +230,84 @@
   {
     "key": "ctrl+k ctrl+n",
     "command": "workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+t",
+    "command": "-workbench.action.selectTheme"
+  },
+  {
+    "key": "ctrl+k ctrl+t",
+    "command": "workbench.action.createTerminalEditor"
+  },
+  {
+    "key": "ctrl+k ctrl+j",
+    "command": "workbench.action.splitEditorToRightGroup"
+  },
+  {
+    "key": "ctrl+k ctrl+j",
+    "command": "-editor.unfoldAll",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+k ctrl+h",
+    "command": "workbench.action.splitEditorToLeftGroup"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "key": "shift+alt+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "shift+delete",
+    "command": "-editor.action.clipboardCutAction"
+  },
+  {
+    "key": "shift+delete",
+    "command": "editor.action.deleteLines"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "cursorMove",
+    "args": {
+      "to": "nextBlankLine"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "cursorMove",
+    "args": {
+      "to": "prevBlankLine"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "cursorMove",
+    "args": {
+      "to": "nextBlankLine",
+      "select": true
+    }
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "cursorMove",
+    "args": {
+      "to": "prevBlankLine",
+      "select": true
+    }
+  },
+  {
+    "key": "enter",
+    "command": "noop",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "tab",
+    "command": "noop",
+    "when": "suggestWidgetVisible && !suggestWidgetHasFocusedSuggestion"
   }
 ]

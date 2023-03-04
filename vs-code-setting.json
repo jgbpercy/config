@@ -5,7 +5,7 @@
   "editor.acceptSuggestionOnEnter": "smart",
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.snippetSuggestions": "none",
   "prettier.disableLanguages": ["html", "yaml"],
   "prettier.printWidth": 100,
@@ -257,5 +257,7 @@
   "vscode-angular-html.xmlTagNamespaceSuffix": "",
   "vscode-angular-html.xmlAttributeNamespaceDivider": "",
   "vscode-angular-html.xmlAttributeNamespaceSuffix": "",
-  "vscode-angular-html.colorCustomizations": true
+  "vscode-angular-html.colorCustomizations": true,
+  "bicep.enableSurveys": false,
+  "git.openRepositoryInParentFolders": "never"
 }
