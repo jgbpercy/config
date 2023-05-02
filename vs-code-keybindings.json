@@ -329,5 +329,10 @@
   {
     "key": "ctrl+k ctrl+f4",
     "command": "references-view.clear"
+  },
+  {
+    "key": "tab",
+    "when": "codeActionMenuVisible",
+    "command": "acceptSelectedCodeAction"
   }
 ]
