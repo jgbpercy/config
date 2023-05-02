@@ -272,7 +272,8 @@
     "key": "ctrl+down",
     "command": "cursorMove",
     "args": {
-      "to": "nextBlankLine"
+      "to": "down",
+      "value": 20
     },
     "when": "editorTextFocus"
   },
@@ -280,7 +281,8 @@
     "key": "ctrl+up",
     "command": "cursorMove",
     "args": {
-      "to": "prevBlankLine"
+      "to": "up",
+      "value": 20
     },
     "when": "editorTextFocus"
   },
@@ -309,5 +311,23 @@
     "key": "tab",
     "command": "noop",
     "when": "suggestWidgetVisible && !suggestWidgetHasFocusedSuggestion"
+  },
+  {
+    "key": "tab",
+    "command": "workbench.action.acceptSelectedQuickOpenItem",
+    "when": "inQuickOpen && inFilesPicker"
+  },
+  {
+    "key": "ctrl+e",
+    "when": "editorFocus && findWidgetVisible",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "ctrl+q",
+    "command": "match"
+  },
+  {
+    "key": "ctrl+k ctrl+f4",
+    "command": "references-view.clear"
   }
 ]

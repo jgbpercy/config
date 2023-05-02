@@ -7,18 +7,10 @@
   "editor.minimap.enabled": false,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.snippetSuggestions": "none",
-  "prettier.disableLanguages": ["html", "yaml"],
   "prettier.printWidth": 100,
   "prettier.trailingComma": "es5",
   "explorer.autoReveal": false,
   "breadcrumbs.enabled": true,
-  "editor.codeActionsOnSave": { "source.organizeImports": true },
-  "[csharp]": {
-    "editor.tabSize": 4
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "vsicons.projectDetection.autoReload": true,
   "workbench.iconTheme": "vscode-icons",
   "editor.formatOnSave": true,
@@ -165,8 +157,17 @@
   },
   "vsicons.presets.tsOfficial": true,
   "workbench.editor.wrapTabs": true,
-  "[typescript]": {
+  "[csharp]": {
+    "editor.codeActionsOnSave": {},
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4
+  },
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": { "source.organizeImports": true }
   },
   "[html]": {
     "editor.defaultFormatter": "HookyQR.beautify"
@@ -182,6 +183,23 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[plaintext]": {
+    "editor.wordWrap": "on",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.formatOnSave": false
   },
   "vsicons.dontShowNewVersionMessage": true,
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
@@ -259,5 +277,6 @@
   "vscode-angular-html.xmlAttributeNamespaceSuffix": "",
   "vscode-angular-html.colorCustomizations": true,
   "bicep.enableSurveys": false,
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "editor.cursorSurroundingLines": 30
 }
