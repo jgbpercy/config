@@ -7,3 +7,4 @@
 *k::Send "{Blind}{Down}"
 *h::Send "{Blind}{Home}"
 *;::Send "{Blind}{End}"
+*o::Send "{Blind}{Delete}"
