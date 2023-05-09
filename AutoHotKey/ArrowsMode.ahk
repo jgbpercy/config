@@ -12,3 +12,4 @@
 n::Send "+!l" ; i.e. my open file tree keybinding in VS Code
 *m::Send "{Blind}{F12}"
 [::Send "{End}{{}{Enter}"
+/::Send "^l"
