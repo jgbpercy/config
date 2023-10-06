@@ -1,5 +1,30 @@
 {
   "singleQuote": true,
   "trailingComma": "all",
-  "printWidth": 100
+  "printWidth": 100,
+  "plugins": ["prettier-plugin-organize-attributes", "prettier-plugin-organize-imports"],
+  "attributeGroups": [
+    "$ANGULAR_STRUCTURAL_DIRECTIVE",
+    "$ANGULAR_ELEMENT_REF",
+    "$ID",
+    "$ANGULAR_ANIMATION",
+    "$ANGULAR_ANIMATION_INPUT",
+    "^\\(@",
+    "$ANGULAR_TWO_WAY_BINDING",
+    "$ANGULAR_INPUT",
+    "$CLASS",
+    "$NAME",
+    "$DATA",
+    "$SRC",
+    "$FOR",
+    "$TYPE",
+    "$HREF",
+    "$VALUE",
+    "$TITLE",
+    "$ALT",
+    "$ROLE",
+    "$ARIA",
+    "$DEFAULT",
+    "$ANGULAR_OUTPUT"
+  ]
 }
