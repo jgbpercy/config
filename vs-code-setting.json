@@ -15,7 +15,7 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "html.mirrorCursorOnMatchingTag": false,
+  "editor.linkedEditing": false,
   "explorer.compactFolders": false,
   "editor.hover.delay": 750,
   "editor.mouseWheelScrollSensitivity": 3,
@@ -155,6 +155,9 @@
       "parameter": "#bbbbbb"
     }
   },
+  "workbench.colorCustomizations": {
+    "editorInlayHint.foreground": "#AAAAAA"
+  },
   "vsicons.presets.tsOfficial": true,
   "workbench.editor.wrapTabs": true,
   "[csharp]": {
@@ -166,11 +169,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": { "source.organizeImports": true }
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -278,5 +280,14 @@
   "vscode-angular-html.colorCustomizations": true,
   "bicep.enableSurveys": false,
   "git.openRepositoryInParentFolders": "never",
-  "editor.cursorSurroundingLines": 30
+  "editor.cursorSurroundingLines": 30,
+  "editor.parameterHints.enabled": false,
+  "workbench.editor.showTabs": false,
+  "explorer.openEditors.visible": 1,
+  "csharp.inlayHints.enableInlayHintsForTypes": true,
+  "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": false,
+  "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+  "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": false,
+  "editor.inlayHints.fontSize": 13,
+  "editor.inlayHints.padding": true
 }

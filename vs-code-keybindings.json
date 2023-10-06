@@ -334,5 +334,18 @@
     "key": "tab",
     "when": "codeActionMenuVisible",
     "command": "acceptSelectedCodeAction"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "when": "terminalFocus && terminalHasBeenCreated",
+    "command": "workbench.action.terminal.openDetectedLink"
+  },
+  {
+    "key": "ctrl+home",
+    "command": "-cursorTop"
+  },
+  {
+    "key": "ctrl+end",
+    "command": "-cursorBottom"
   }
 ]
