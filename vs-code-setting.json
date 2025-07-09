@@ -15,7 +15,6 @@
   "workbench.iconTheme": "vscode-icons",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "editor.linkedEditing": false,
   "explorer.compactFolders": false,
   "editor.hover.delay": 750,
   "editor.mouseWheelScrollSensitivity": 3,
@@ -227,7 +226,6 @@
     "*.component.ts": "${capture}.component.html,${capture}.component.scss"
   },
   "[yaml]": {
-    "editor.formatOnSave": false,
     "editor.insertSpaces": true,
     "editor.tabSize": 2,
     "editor.autoIndent": "advanced"
@@ -282,12 +280,24 @@
   "git.openRepositoryInParentFolders": "never",
   "editor.cursorSurroundingLines": 30,
   "editor.parameterHints.enabled": false,
-  "workbench.editor.showTabs": false,
+  "workbench.editor.showTabs": "single",
   "explorer.openEditors.visible": 1,
   "csharp.inlayHints.enableInlayHintsForTypes": true,
-  "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": false,
+  "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
   "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
   "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": false,
+  "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.inlayHints.fontSize": 13,
-  "editor.inlayHints.padding": true
+  "editor.inlayHints.padding": true,
+  "nxConsole.showNodeVersionOnStartup": false,
+  "workbench.startupEditor": "none",
+  "workbench.tree.enableStickyScroll": true,
+  "editor.pasteAs.enabled": true,
+  "editor.pasteAs.preferences": ["text.updateImports", "uri.path.relative"],
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "mssql.enableRichExperiences": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "mssql.openQueryResultsInTabByDefaultDoNotShowPrompt": true
 }

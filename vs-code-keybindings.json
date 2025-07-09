@@ -261,6 +261,14 @@
     "command": "editor.emmet.action.wrapWithAbbreviation"
   },
   {
+    "key": "shift+alt+q",
+    "command": "editor.emmet.action.removeTag"
+  },
+  {
+    "key": "shift+alt+e",
+    "command": "editor.emmet.action.updateTag"
+  },
+  {
     "key": "shift+delete",
     "command": "-editor.action.clipboardCutAction"
   },
@@ -347,5 +355,10 @@
   {
     "key": "ctrl+end",
     "command": "-cursorBottom"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
   }
 ]
